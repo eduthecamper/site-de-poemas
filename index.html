@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="externo.css">
+	<title>poemas para mi amor</title>
+
+</head>
+
+<body>
+
+ 
+    <audio src="music/m1.mp3" id="song"></audio>
+
+    <div class="container">  
+        <div class="box"></div>      
+        <img src="images/m1.jpg" id="thumbnail" />
+        
+        <img src="icons/play.png" onclick="playPause()" id="play-pause" />
+        <img src="icons/forward.png" onclick="nextSong()" id="next-song" />
+        <img src="icons/backward.png" onclick="previousSong()" id="previous-song" />
+
+        <div class="song-artist">umas musicas</div>
+        <div class="song-title">só os sons gostosos</div>
+
+        <!-- Input element for progress bar - min=0 starting value of every song - max length will change per song so leave empty -->
+        
+        <input 
+            type="range" 
+            id="progress-bar" 
+            min="0" 
+            max="" 
+            value="0" 
+            onchange="changeProgressBar()"
+        />
+
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+    </div>
+
+    <script src="player.js"></script>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	 <h2>Os poemas preferidos de meu amorzinho</h2>
+
+	 <br><br><br>
+	 <p class="textoini">aqui temos todos os poemas que meu amor mais gosta,<br>podem ser lidos em dias tristes, em dias bons,<br>
+	 o que importa é matar a saudade.</p>
+
+ <div class="conteudo">
+
+
+    <img class="foto" src="fotos/foto1.jpg">
+
+        <h3>Campo de flores</h3>
+
+        <p>você é linda como o céu<br>
+		cheirosa como um campo de flores<br>
+		me acalma como os campos sem fim<br>
+		como um lírio, se destaca nas florestas<br> 
+		me encanta como as borboletas<br> 
+		e me traz uma paz, assim como a natureza me traz<br> 
+		você é linda, meu amor<br>
+		assim como o sol tem a lua, eu tenho você<br> 
+		e com você que eu brilho<br>
+		assim como Adão tinha a Eva, eu tenho você<br>
+		que me leva sempre ao pecado e a perdição<br> 
+		assim como a terra tem o mar, eu tenho você<br> 
+		e ambos são lindos juntos, e formam todas as maravilhas do mundo<br>
+		mas claro, nenhuma se compara a você </p>
+
+
+    </div> <!-- fim poema -->
+
+    <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto2.jpg">
+
+    	<h3>Sina</h3>
+
+    	<p>minha sina já não é mais solitária<br>
+		conto os dias pra gente poder namorar mais uma vez<br>
+		todo dia uma surpresa, uma mensagem sua de bom dia<br>
+		e toda vez que a gente se vê, um cheiro no cangote<br> 
+		a lua encanta o céu e eu escrevo pra você<br> 
+		nem todo dia um poema, mas todo dia um pensamento sobre você<br>
+		eu sou simples, mas pra você sempre deixo minhas portas abertas<br>
+		e só paro de dengo quando tenho que ir embora<br>
+		nenhuma nunca foi você, e acho que por isso nunca deu certo<br> 
+		porque só você é linda e pura por dentro<br>
+		toda vez que estive com alguém, nunca me senti completo<br> 
+		mas com você, me encaixo tão bem quanto cerveja e churrasco<br> 
+
+		(esse eu escrevi ouvindo as modas do João carreiro)</p>
+    </div>
+
+     <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto3.jpg">
+
+    	<h3>Ciúme</h3>
+
+    	<p>meu ciúme é puro amor<br>
+		quando parei de procurar, você apareceu<br> 
+		e nós nos encaixamos<br>
+		você me ama, eu te amo, precisa de mais?<br>
+		tudo acontece por um motivo<br> 
+		e fomos o melhor motivo que poderia ter acontecido<br> 
+		eu sou difícil de lidar, mas você conseguiu me dominar<br> 
+		e me prendeu de jeito, sou refém do seu amor<br>
+		e é a melhor coisa que me aconteceu</p>
+    </div>
+
+     <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto4.jpg">
+
+    	<h3>Arte</h3>
+
+    	<p>seu sorriso supera qualquer obra de arte<br>
+		assim como seu corpo causa inveja em qualquer artista que não teve a honra de esculpi-lo<br>
+		porque afinal, tamanha perfeição nunca poderia ser alcançada por nenhum deles<br>
+		já que, meu amor, você é perfeita em todos os detalhes<br>
+		em cada fio de cabelo e linha do corpo<br> 
+		que foram tracejados com tamanha perfeição<br> 
+		que aos olhos humanos, para vê-los e os entender<br>
+		falta compreensão </p>
+    </div>
+
+     <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto5.jpg">
+
+    	<h3>Alma</h3>
+
+    	<p>nossas almas estão entrelaçadas e conectadas<br>
+		assim como nossos dedos quando damos as mãos<br> 
+		com uma conexão tão forte que é impossível de não sentir<br> 
+		conexão que radia amor, assim como nossos olhares bobos e apaixonados<br> 
+		que com certeza são tão lindos, que não existe poeta e poesia que possa descrever<br> 
+		a cada beijo, sinto nossa conexão aumentar<br>
+		a cada olhar, sinto meu coração gritar<br>
+		gritar que te ama e que te quer pra sempre<br> 
+		para todo o sempre, por uma eternidade<br>
+		por várias eternidades </p>
+    </div>
+
+     <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto6.jpg">
+
+    	<h3>Uma rotina</h3>
+
+    	<p>hoje eu acordei<br>
+		tomei meu café<br>
+		e senti sua falta<br>
+		é estranho, não?<br>
+		sinto falta de você numa parte da minha rotina que você nem sequer participou AINDA,<br>
+		porque sei que um dia vai, logo logo<br>
+		uma das minhas vontades é te acordar com um beijo e um cheiro,<br>
+		dizer que você está tão linda quanto o dia ensolarado,<br>
+		te dar boa noite olhando em seus olhos,<br>
+		dizendo que o brilho das estrelas não chegam aos pés do brilho dos seus olhos quando me olha,<br>
+		porque realmente eles brilham<br>
+		Deus me mandou seus faróis para me guiar e instruir,<br>
+		e esses faróis são seus olhos<br>
+		neles eu vejo o meu futuro com você,<br>
+		vejo o amor que sente por mim, o carinho,<br> 
+		o zelo vejo meu coração se entregar a cada olhar e cada brilho</p>
+    </div>
+
+
+     <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto7.jpg">
+
+    	<h3>Eu te quero</h3>
+
+    	<p>...assim como o céu tem as estrelas<br>
+		assim como o universo tem suas galáxias<br>
+		assim como o infinito tem seus números<br>
+		te querer é um vício, te trago com o amor de cada beijo<br>
+		você me viciou e me dominou<br>
+		você é minha melhor briza<br>
+		você me tira do chão, me faz rir, me deixa sem noção<br>
+		você desperta muita coisa em mim<br>
+		uma delas é o amor<br>
+		que também me tira do chão, e não me derruba<br> 
+		me dá asas, motivação e coragem<br>
+		pra enfrentar tudo, vencer tudo, conquistar tudo<br>
+		você me deixa sem limites<br>
+		e com você eu alcançarei o mundo<br> 
+		que graça tem te dar o mundo, se eu não puder conquistar ele com você antes?<br>
+		afinal, eu te quero...</p>
+    </div>
+
+  <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto8.jpg">
+
+    	<h3>Saudades</h3>
+
+    	<p>Sabe o bom da saudade?<br>É que com ela,<br> quando a gente se encontra,<br>tudo fica mais quente,<br> nosso beijo fica mais gostoso,<br> nossos abraços ficam mais quente,<br> nossos corpos se reconectam,<br> mas isso não significa que devemos viver a vida toda só sentindo saudade,<br> eu espero ansiosamente pelo dia em que vamos acordar um do lado do outro,<br> com aquele beijo na testa de bom dia e o sorriso bobo,<br> nossa magia sempre vai existir,<br> porque nosso amor é coisa de outro mundo,<br> o que eu sinto eu nunca senti,<br> assim como nunca vou deixar de sentir,<br> mesmo que me obrigue a lavar a louça...</p>
+    </div>
+
+    <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto9.jpg">
+
+    	<h3>A poesia perfeita</h3>
+
+    	<p>eu queria escrever uma poesia perfeita,<br> mas como posso fazer isso se você já é a minha poesia?<br> 
+		eu encontro a perfeição em cada detalhe,<br>linha e canto do seu corpo<br>
+		onde o prazer de ler, não está só nos olhos,<br> mas na ponta dos dedos,<br> na pontinha da língua,<br> no doce som que sai de você,<br> que entra em meus ouvidos e me fazem ouvir<br> um pouquinho do som do paraíso<br> 
+		paraíso esse que me acalma e anestesia,<br> assim como seu corpo faz comigo,<br> assim como seus olhos e olhares fazem comigo,<br> sempre seguidos de um sorriso bobo<br> e a perfeita melodia do "eu te amo".</p>
+    </div>
+
+
+     <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto10.jpg">
+
+    	<h3>O próximo</h3>
+
+    	<p>seus cabelos escuros e ondulados são lindos,<br> me deixam maluquinho por você<br> 
+		assim como seu sorriso fascinante<br>
+		que me fazem te amar na mesma intensidade<br>onde o sol e a lua são eternos amantes<br>
+		onde sempre estamos um atrás do outro<br>
+		esperando o próximo encontro<br>
+		o próximo abraço<br>
+		o próximo amor<br>
+		porque fomos feitos um pro outro<br> 
+		e assim como eles, brilhamos de forma perfeita e eloquente </p>
+    </div>
+       
+        <br><br><br><br><br>
+
+    <div class="conteudo">
+    	
+ 	<img class="foto" src="fotos/foto11.jpg">
+
+    	<h3>Um sonho</h3>
+
+    	<p>eu sei que você ainda não é minha companhia de domingo,<br> mas logo será<br> 
+		você já é muito "minha"<br>
+		é o meu amor<br>
+		o meu desejo<br>
+		minha cura<br>
+		minha vontade<br>
+		minha força<br>
+		minha motivação<br> 
+		você é o meu tudo,<br>pelo mais clichê que seja dizer isso<br> 
+		eu quero você, só você<br>
+		quero seu olhar,<br>o jeito em que me olha com uma sina de amor<br>
+		meu mundo gira enquanto eu faço planos<br>
+		tenho planos de me formar,<br>de viver,<br>de me casar com você<br> 
+		você está em meus planos<br>
+		está em meus sonhos<br>
+		afinal, você é meu sonho</p>
+    </div>
+
+    <h3>todos esses poemas foram escritos<br>com muito amor<br>para o meu amor.</h3>
+</html>
+
+
+
